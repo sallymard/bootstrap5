@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 20px;
+}
+.navbar{
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: rgb(252, 186, 64);
+    font-family: 'Lobster', cursive;
+    
+}
+
+.navbar-brand:hover{
+    color: black;
+}
+.nav-link{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+.main{
+
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(img/food.jpg) no-repeat;
+    background-size: cover; 
+    background-attachment:fixed ;
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: left;
+    color: black;
+    margin-top: 140px;
+   
+}
+.btn{
+    height: 45px;
+    width: 35%;
+    border:none;
+    outline: none;
+    
+}
+.img1 .img2 .img3{
+padding: 30px;
+
+}
+.products h1{
+
+    color: rgb(252, 186, 64);
+    font-family: 'Lobster', cursive;
+}
+.restaurant{
+    width: 70%;
+}
+.restaurant h1{
+    margin-bottom: 5px;
+    color: rgb(252, 186, 64);
+    font-family: 'Lobster', cursive;
+    font-weight: 500;
+}
+footer{
+    width: 100%;
+    background-color: rgb(245, 151, 56 ,1.0);
+   color:#fff;
+   font-family: 'Lobster', cursive;
+   
+
+}
+footer h1{
+    font-weight : 700;
+    text-align: center;
+    
+}
+
+footer .copyright{
+    text-align: right;
+}
