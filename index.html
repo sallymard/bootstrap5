@@ -11,15 +11,15 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css.css" >
- 
+ <script src="js.js"></script>
 </head>
 
-<body>
+<body >
         
       
-    <nav class="navbar navbar-expand-lg bg-light ">
+  <nav class="navbar navbar-expand-lg bg-light ">
         <div class="container">
-          <a class="navbar-brand " href="#">FOOD</a>
+          <a class="navbar-brand "onmouseover="style.color='black'" onmouseout="style.color='rgb(252, 186, 64)'" href="#">FOOD</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -29,10 +29,10 @@
                 <a class="nav-link "  href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">TRENDING</a>
+                <a class="nav-link" href="#">DISHES</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">STORE</a>
+                <a class="nav-link" href="#">OUR RESTAURANT</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">CONTACT US</a>
@@ -40,13 +40,13 @@
             </ul>
           </div>
         </div>
-      </nav>
+  </nav>
 
-    <section class="main">
+ <section class="main">
         <div class="container py-5">
-            <div class="row py4">
+            <div class="row ">
                 <div class="col-lg-7 pt-5 text-center">
-                    <h1 class="pt-5">Making time agood time by making food the good food</h1>
+                    <h1 class="pt-5">Making time a good time by making food the good food</h1>
                     <button type="button" class="btn btn-primary btn-lg">More Tips</button>
                 </div>
             </div>
@@ -55,54 +55,39 @@
 
 
     <section class="new">
-        <div class="container py-5"> 
+        <div class="container py-5 text-center "> 
         <div class="row pt-5">
-            <div class="col-sm-7 m-auto">
-                <div class="row text-center">
-                <div class="col-lg-3">
-                     <img src="img/ic sushi.png"class="img1" alt="sushi">
-                     SUSHI
-                </div>
-                <div class="col-lg-3">
-                    <img src="img/ic pizza.png" class="img2" alt="pizza">
-                    PIZZA
-                </div>
-                <div class="col-lg-3">
-                    <img src="img/ictaco.png" class="img3" alt="Taco">
-                    TACO
-                </div>
-                </div>
-            </div>
+
+          <p><strong >Good food</strong> will always welcome you back with a smile</p>
+         
         </div>
      </div>
-    </section>
+  </section>
 
-
-
- 
     
        
- <section class="products m-5 bg-light">  
-  <div class="container pt-5 m-auto text-center">
-        <h1>Our Products</h1>
+ <section class="DISHES  m-auto mb-5 bg-light">  
+  <div class="container-fluid  m-auto text-center">
+        <h1>DISHES</h1>
     <div class="row row-cols-1 row-cols-md-3 g-4">
     
      <div class="col">
         <div class="card h-100 m-auto "style="width: 18rem ;">
            <img src="img/salad.jpg "class="card-img-top" alt="salad">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h5 class="card-title">Salad</h5>
+             <p class="card-text"></p>
             </div>
         
         </div>
+
     </div>
         <div class="col">
-          <div class="card h-100 m-auto" style="width: 18rem ;">
+          <div class="card h-100 m-auto " style="width: 18rem ;">
            <img src="img/burger.jpg" class="card-img-top" alt="Burger">
             <div class="card-body">
               <h5 class="card-title">Burger</h5>
-             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+             <p class="card-text"></p>
             </div>
        
           </div>
@@ -113,7 +98,7 @@
          <img src="img/pasta.jpg" class="card-img-top" alt="pasta">
          <div class="card-body">
           <h5 class="card-title">Pasta</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          <p class="card-text"></p>
          </div>
        </div>
     </div>
@@ -134,47 +119,63 @@
           <div class="carousel-item active" data-bs-interval="10000">
             <img src="img/2.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
+    
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="2000">
             <img src="img/1.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              
             </div>
           </div>
           
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+         </div>
       </div>
-
 
 </section>
 
+
+
+
+<section class="contact" >
+  <div class="container m-auto mt-4 mb-4">
+    <div class="row">
+      <div class="col-lg-6 p-2 ">
+        <p><span>Food tastes</span> better when you eat it with your family and friends<br/>
+        Invint them to our restaurant and enjoy.
+        </p>
+        <img src="img/friends.jpg" alt="friends" onmouseover="bigImg(this)" onmouseout="normalImg(this)">
+      </div>
+     <div class="col-lg-6 p-2 ">
+        <form >
+           <h3>Contact Us</h3>
+             <input id ="fname" name="name" onfocus="Focus(this)" placeholder="Name" type="text" id="fname" onblur="Upper()" required  /><br/>
+             <input name="email" onfocus=" Focus(this)"   placeholder="Email" type="email "required /><br/>
+             <textarea name="message"  onfocus=" Focus(this)" placeholder="Message" required ></textarea>
+           <input type="submit"  value="SEND" class="submit " onclick="check_email()"/> 
+             <input type="reset"  value="RESET" class="reset" />
+             
+        </form>
+    
+      </div>
+    </div>
+  </div>
+</section>
+
+
 <footer>
     <div class="container m-auto text-white">
-<h1>Follow Us</h1>
+      <h1>Follow Us</h1>
 
-<div class="social-icons">
-    <a href="#"><img src="https://img.icons8.com/sf-ultralight-filled/100/000000/facebook-circled.png"/></a>
-    <a href="#"><img src="https://img.icons8.com/sf-ultralight-filled/100/000000/whatsapp.png"/></a>
-    <a href="#"><img src="https://img.icons8.com/sf-ultralight-filled/100/000000/instagram-new.png"/></a>
-</div>
+       <div class="social-icons">
+           <a href="#"><img src="https://img.icons8.com/material/48/000000/facebook--v1.png"/></a>
+           <a href="#"><img src="https://img.icons8.com/material/48/000000/whatsapp--v1.png"/></a>
+           <a href="#"><img src="https://img.icons8.com/material/48/000000/instagram-new--v1.png"/></a>
+           <a href="#"><img src="https://img.icons8.com/material/48/000000/place-marker--v1.png"/></a>
+        </div>
     </div>
         <div class="copyright">
-          &copy; 2022 FOOD. All rights reserved.
-           
-        </div>
-    
+          &copy; 2022 FOOD. All rights reserved.  
+        </div>    
 </footer>
 
 </body>

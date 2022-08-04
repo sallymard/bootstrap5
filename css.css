@@ -20,15 +20,18 @@ body{
     font-family: 'Lobster', cursive;
     
 }
+/*.......Nav.................................*/
 
-.navbar-brand:hover{
-    color: black;
-}
+
 .nav-link{
     margin-left: 10px;
     margin-right: 10px;
     text-transform: uppercase;
 }
+
+/*.......main.................................*/
+
+
 .main{
 
     width: 100%;
@@ -41,10 +44,11 @@ body{
 }
 .main h1{
     font-size: 4rem;
-    font-weight: 700;
+    font-weight: 600;
     text-align: left;
     color: black;
     margin-top: 140px;
+    
    
 }
 .btn{
@@ -53,33 +57,130 @@ body{
     border:none;
     outline: none;
     
+    
 }
-.img1 .img2 .img3{
-padding: 30px;
 
+/*.......new.................................*/
+.new p{
+font-weight: 500;
+font-size: 3rem;
+font-family: 'Lobster', cursive;;
 }
-.products h1{
+
+/*.......DISHES.................................*/
+
+.DISHES{
+    padding-bottom:3rem ;
+}
+.DISHES h1{
 
     color: rgb(252, 186, 64);
     font-family: 'Lobster', cursive;
+   
 }
+.card{
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    
+}
+.card:hover{
+    transform: scale(1.05);
+
+    
+}
+
+/*.......restaurant.................................*/
+
 .restaurant{
     width: 70%;
+    height: auto;
+    padding-bottom:15rem ;
+    padding-top: 15rem;
+
 }
 .restaurant h1{
-    margin-bottom: 5px;
+    margin-bottom: 35px;
     color: rgb(252, 186, 64);
     font-family: 'Lobster', cursive;
     font-weight: 500;
 }
-footer{
-    width: 100%;
-    background-color: rgb(245, 151, 56 ,1.0);
-   color:#fff;
-   font-family: 'Lobster', cursive;
-   
+/*.......contact.................................*/
+.contact p span{
+font-size: 2rem;
+font-family:'Lobster', cursive ;
+font-weight: 300;
 
 }
+ 
+.contact img{
+  
+    border-radius: 5px;
+}
+
+
+.form h3 {
+     
+    margin-bottom: 35px;
+    color: rgb(252, 186, 64);
+    font-family: 'Lobster', cursive;
+    font-weight: 800;
+
+}  
+.submit  {
+    background-color: #3fb6b2;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    margin-bottom: 2px;
+    font-weight: bold;
+  }
+  .submit:hover {
+    background-color: #43a09d;
+  }
+  .reset  {
+    background-color: #3fb6b2;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    margin: 0;
+    font-weight: bold;
+  }
+  .reset:hover {
+    background-color: #43a09d;
+  }
+  textarea {
+    height: 100px;
+}
+input, textarea {
+  margin-bottom: 10px;
+  font-size: 11pt;
+  padding: 15px 10px 10px;
+  border: 1px solid #cecece;
+  background-color: #efefef;
+  color: #787575;
+  border-radius: 5px;
+  width: 70%;
+  outline: none;
+}
+
+/*..............footer..............................*/
+
+footer{
+
+    width: 100%;
+    background-color: rgb(245, 151, 56 );
+   color:#fff;
+   font-family: 'Lobster', cursive; 
+
+}
+
 footer h1{
     font-weight : 700;
     text-align: center; 
